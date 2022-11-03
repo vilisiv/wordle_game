@@ -298,4 +298,9 @@ class _HomePageState extends State<HomePage> {
     String twoDigitSeconds = twoDigits(duration.inSeconds.remainder(60));
     return "${twoDigits(duration.inHours)}:$twoDigitMinutes:$twoDigitSeconds";
   }
+
+  // Hugh Sample function
+  Widget _newFunction () {
+    return Container();
+  }
 }
